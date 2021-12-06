@@ -12,48 +12,51 @@
 <body>
   <div class="popup">
     <div class="popup-container">
-      <button class="popup-close"></button>
-      <header class="feedback-header">
+      <button class="popup-close" type="button"></button>
+      <div class="feedback-header">
         <h2 class="feedback-title">Ваш фидбек</h2>
-      </header>
+      </div>
       <div class="feedback-content">
         <div class="feedback-form">
           <div class="feedback-column">
             <label class="feedback">
-              <span class="feedback-qustion">как часто вы заходите на сайт? </span>
-              <select class="freguency-field">
-                <option selected>почти каждый день</option>
-                <option>раз в неделю</option>
-                <option>раз в месяц</option>
-                <option>я тут впервые</option>
+              <span class="feedback-question">Как часто вы заходите на сайт?</span>
+              <select class="frequency-field">
+                <option selected>Почти каждый день</option>
+                <option>Раз в неделю</option>
+                <option>Раз в месяц</option>
+                <option>Я тут впервые</option>
               </select>
             </label>
-          </div>
-        </div>
-      </div>
-      <div class="feedback-column">
-        <span class="feedback-qustion">вы подписаны на e-mail рассылку?</span>
-        <div class="radio-feedback">
-          <label class="feedback">
-            <input class="popup-radio-group" type="radio" name="newsletter-group">
-            <span class="popup-radio-answer">да</span>
-          </label>
-          <label class="feedback">
-            <input class="popup-radio-group" type="radio" name="newsletter-group">
-            <span class="popup-radio-answer">нет</span>
-          </label>
-        </div>
+           </div>
       </div>
     </div>
+  
     <div class="feedback-column">
-      <label class="feedback">
-        <span class="feedback-question">расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-      </label>
-      <texteria class="requst-field" placeholder="Может, больше рецептов?" required=""></texteria>
-      <div class="feedback-column">
-        <button class="button-send"><span class="sign-up-buttton-label">Отправить</span></button>
+      <span class="feedback-question">Вы подписаны на e-mail рассылку?</span>
+      <div class="radio-feedback">
+        <label class="feedback">
+          <input class="popup-radio-group" type="radio" name="newsletter-group">
+          <span class="popup-radio-answer">Да</span>
+        </label>
+        <label class="feedback">
+          <input class="popup-radio-group" type="radio" name="newsletter-group">
+          <span class="popup-radio-answer">Нет</span>
+        </label>
       </div>
     </div>
+ 
+  
+  <div class="feedback-column">
+    <label class="feedback">
+      <span class="feedback-question">Расскажите, какой контент вы бы хотели видеть на нашем сайте?</span>
+    </label>
+    <textarea class="request-field" placeholder="Может, больше рецептов?" required=""></textarea>
+    <div class="feedback-column">
+      <button class="button-send"><span class="sign-up-button-label">Отправить</span></button>
+    </div>
+  </div>
+</div>
   </div>
   <!--------------header-->
   <header class="header">
