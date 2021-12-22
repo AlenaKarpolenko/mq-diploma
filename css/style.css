@@ -6,13 +6,13 @@
   
   @font-face {
     font-family: OpenSans;
-    src: url("/fonts/OpenSans-Regular.ttf");
+    src: url("../fonts/OpenSans-Regular.ttf");
     font-style: normal;
      font-weight:normal;
   }
   @font-face {
     font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.woff");
     font-weight: 400;
     font-style: normal;
   }
@@ -64,7 +64,7 @@
     top: -27px;
     border: none;
     background-color: transparent;
-    background-image: url("svg/form-x.svg");
+    background-image: url("../svg/form-x.svg");
     cursor: pointer;
   }
 
@@ -130,7 +130,7 @@ resize: none;
    background-color: #b3a168;
    -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("svg/form-arrows.svg");
+  background-image: url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 10px;
@@ -151,7 +151,7 @@ resize: none;
   vertical-align: middle;
   width: 25px;
   height: 25px;
-  background-image: url("/svg/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 25px;
@@ -164,7 +164,7 @@ resize: none;
   vertical-align: middle;
   width: 30px;
   height: 30px;
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 30px;
@@ -375,7 +375,7 @@ line-height: 1,66;
 
 @media(max-width:640px){
   .header{
-  background-image: url("/images/banner-mobile.jpg");
+  background-image: url("../images/banner-mobile.jpg");
   padding-top: 2rem;
   padding-bottom: 13.5rem;
 }
@@ -802,7 +802,7 @@ width: 781px;
   display: none;
 }
 .search-button {
-  background-image: url("/svg/search.svg");
+  background-image: url("../svg/search.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: center center;
@@ -861,7 +861,7 @@ flex-shrink: 0;
 width: 47px;
 height: 47px;
 border:0;
-background-image: url("/svg/search.svg");
+background-image: url("../svg/search.svg");
 background-color: #b19f64;
 background-repeat: no-repeat;
 background-size: 20px 20px;
